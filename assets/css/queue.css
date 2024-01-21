@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+header {
+  background: #ffffff;
+  position: relative;
+  height: 100px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* .iframe-content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+.iframe-content iframe {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  border: none;
+}
